@@ -38,3 +38,6 @@ def to_polar(vector):
     x, y = vector[0], vector[1]
     angle = atan2(y,x)
     return (length(vector), angle)
+
+def test(name):
+    print(name)
